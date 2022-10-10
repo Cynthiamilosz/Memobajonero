@@ -1,0 +1,48 @@
+
+body{
+  background-color: rgb(142, 80, 145);
+  
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./img/degrade4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  border-radius: 14px;
+}
+
+
+
+h1{
+justify-content: center;
+align-items: center;
+margin: auto;
+padding-bottom: 15px;
+padding-top: 20px;
+text-transform: uppercase;
+}
+
+h3{
+  padding-left: 15%;
+  font-size: x-large;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  
+  }
+
+
+  footer{
+    height: 500px;
+  }
