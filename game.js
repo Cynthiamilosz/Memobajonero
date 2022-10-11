@@ -1,13 +1,10 @@
+
 var nombre = prompt ('¡Bienvenido al Memotest Bajonero! ¿Cómo te llamás?');
 
-parseInt(prompt(nombre+', la cosa es así: llegó la hora del bajón y saliste sorteado para hacer las compras 💔 Tenés 15 intentos para conseguir todo antes que tus amigos se queden dormidos! 😴 (Ingresá cualquier tecla para continuar)' ));
-alert ('¡Empecemos el Juego!')
+alert(nombre+', la cosa es así: llegó la hora del bajón y saliste sorteado para hacer las compras 💔 Tenés que conseguir todo antes que tus amigos se queden dormidos 😴, ok? ¡Empecemos el Juego!');
 
 document.addEventListener('DOMContentLoaded', () => {
 
- 
-    
-  
     //cartas
     const cardArray = [
       {
