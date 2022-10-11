@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('Jajajaj clickeaste en la misma imagen, no te duermas vos también!🧟‍♂️🧟‍♀️')
       }
       else if (cardsElegidas[0] === cardsElegidas[1]) {
-        alert('¡Encontraste un Match!')
+        alert('¡Encontraste un Match! 💘')
         cards[opcionUnoId].setAttribute('src', 'cartas/vacio.jpg')
         cards[opcionDosId].setAttribute('src', 'cartas/vacio.jpg')
         cards[opcionUnoId].removeEventListener('click', flipCard)
@@ -116,13 +116,13 @@ document.addEventListener('DOMContentLoaded', () => {
       else {
         cards[opcionUnoId].setAttribute('src', 'cartas/dorso.jpg')
         cards[opcionDosId].setAttribute('src', 'cartas/dorso.jpg')
-        alert('Intentá de nuevo, vos podés💪')
+        alert('Intentá de nuevo, vos podés 💪')
       }
       cardsElegidas = []
       cardsElegidasId = []
       resultDisplay.textContent = cardsWon.length
       if  (cardsWon.length === cardArray.length/2) {
-        resultDisplay.textContent = 'Lo hiciste, G E N I O! Ahora un merecidísimo bajón 🍕🍔🍟🌭🥞🍗🍩🥪💖👽'
+        resultDisplay.textContent = ' Lo hiciste, G E N I @! Ahora un merecidísimo bajón 🍕🍔🍟🌭🥞🍗🍩🥪💖👽'
       }
       
     }
